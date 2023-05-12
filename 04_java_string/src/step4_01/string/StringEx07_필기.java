@@ -12,17 +12,22 @@ public class StringEx07_필기 {
 		
 		String[] name = new String[3];
 		int[] score = new int[3];
-				
-		String[] temp1 = str.split(",");
 		
-		for (int i = 0; i < temp1.length; i++) {
-			String[] temp2 = temp1[i].split("/");
+		String[] temp = str.split(",");
+		
+		for (int i = 0; i < temp.length; i++) {
+			String[] temp2 = temp[i].split("/");
 			name[i] = temp2[0];
 			score[i] = Integer.parseInt(temp2[1]);
-		}
+			}
 		System.out.println(Arrays.toString(name));
 		System.out.println(Arrays.toString(score));
-
+		
+		
+		
+		
+		
+	
 	}
 
 }

@@ -28,12 +28,12 @@ public class StringEx06_정답예시 {
 		// 정답 2) 11/100/89
 		
 		int[] scores = {11, 100, 89};
-		String text = "";
+		String text = ""; //현재는 이거다
 		
 		for (int i = 0; i < scores.length; i++) {
 			text += scores[i] + "";
 			if (i != scores.length-1) {
-				text += "/";
+				text += "/"; //for문으로 이용해  / 이걸 넣을꺼다
 			}
 		}
 		System.out.println(text);

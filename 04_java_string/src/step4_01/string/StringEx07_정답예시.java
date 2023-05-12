@@ -10,10 +10,10 @@ public class StringEx07_정답예시 {
 		
 		String str = "김철수/87,이만수/42,이영희/95";
 		
-		String[] name = new String[3];
-		int[] score = new int[3];
+		String[] name = new String[3]; //빌드업
+		int[] score = new int[3]; //빌드업
 		
-		String[] temp1 = str.split(",");
+		String[] temp1 = str.split(","); // ,을 위한 String 작업
 		
 		for (int i = 0; i < temp1.length; i++) {
 			String[] temp2 = temp1[i].split("/");

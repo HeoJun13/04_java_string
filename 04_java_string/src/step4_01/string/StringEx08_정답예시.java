@@ -12,6 +12,8 @@ public class StringEx08_정답예시 {
 		
 		String str = "";
 		
+		// for문으로 
+		
 		for (int i = 0; i < name.length; i++) {
 			str += name[i] + "/" +  score[i];
 			if (i != name.length-1) {
