@@ -5,7 +5,7 @@ public class StringEx05_문제 {
 
 	public static void main(String[] args) {
 
-		String jumin = "890101-2012932";
+		String jumin = "890101-2012932"; //주민 이는 89년 01월 01일 여자.
 		// 문제 1) 나이 출력
 		// 정답 1) 35세
 		

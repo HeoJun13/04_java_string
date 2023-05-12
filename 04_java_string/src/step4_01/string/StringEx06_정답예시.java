@@ -11,13 +11,13 @@ public class StringEx06_정답예시 {
 		// 문제 1) arr 배열에 각 점수를 저장하고, 총점 출력
 		// 정답 1) 200
 		
-		int[] arr = new int[3];
+		int[] arr = new int[3]; //3개 문장이 있다는 것.
 		
-		String[] temp = str.split("/");
+		String[] temp = str.split("/"); //
 
-		int tot = 0;
-		for (int i = 0; i < temp.length; i++) {
-			arr[i] = Integer.parseInt(temp[i]);
+		int tot = 0; //총 합계 얼마인지 초기설정.
+		for (int i = 0; i < temp.length; i++) { // for문.
+			arr[i] = Integer.parseInt(temp[i]); // 
 			tot += arr[i];
 		}
 		System.out.println("tot = " + tot);

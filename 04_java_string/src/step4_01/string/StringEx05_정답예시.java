@@ -21,7 +21,7 @@ public class StringEx05_정답예시 {
 		// 문제 2) 성별 출력
 		// 정답 2) 여성
 		
-		char key = jumin.charAt(7);
+		char key = jumin.charAt(7); //몇번째 번호 인식 할건지 설
 		if (key == '1' || key == '3') {
 			System.out.println("남성");
 		}
