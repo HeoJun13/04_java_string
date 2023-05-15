@@ -23,29 +23,31 @@ public class StringEx09_필기 {
 		Scanner scan = new Scanner(System.in);
 		Random ran = new Random();
 		
-		String[] words = {"java", "mysql", "jsp", "spring"};
+		String[] wolds = {"java" , "masql" , "jsp" , "mydb" , "spring"};
 		
 		for (int i = 0; i < 500; i++) {
-			int r = ran.nextInt(words.length);
+			int r = ran.nextInt(wolds.length);
 			
-			String temp = words[0];
-			words[0] = words[r];
-			words[r] = temp;
+			String temp = wolds[0];
+			wolds[0] = wolds[r];
+			wolds[r] = temp;
+			
 		}
-		int idx = 0;
-		while (idx < words.length) {
-			
-			System.out.println("[" + (idx + 1) + "] 문제 : " + words[idx]);
+		int dix = 0;
+		while (dix < wolds.length) {
+			System.out.println("[" + (dix +1) + "] 문제 "+ wolds[dix]);
 			
 			System.out.print("입력 : ");
-			int myWord = scan.nextInt();
+			String mywolds = scan.next();
 			
-			if (words[idx].equals(myWord)) {
-				idx++;
-				
+			if(wolds[dix].equals(mywolds)) {
+				dix++;
 			}
+			
 		}
-
+		
+		
+		
 	}
 
 }

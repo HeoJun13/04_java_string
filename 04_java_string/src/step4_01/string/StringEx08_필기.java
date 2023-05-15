@@ -1,5 +1,6 @@
 package step4_01.string;
 
+import java.lang.reflect.Array;
 
 public class StringEx08_필기 {
 
@@ -10,6 +11,17 @@ public class StringEx08_필기 {
 		
 		String[] name = {"김철수", "이만수", "이영희"};
 		int[] score = {87, 42, 95};
+		
+		String str = "";
+		
+		for (int i = 0; i < score.length; i++) {
+			str += name[i] + "/" + score[i];
+			if (i != score.length -1) {
+				str += ",";
+			}
+			
+		}
+		System.out.println(str);
 		
 
 	}

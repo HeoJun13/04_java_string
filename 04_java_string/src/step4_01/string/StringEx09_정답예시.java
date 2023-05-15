@@ -26,7 +26,7 @@ public class StringEx09_정답예시 {
 		String[] words = {"java", "mysql", "jsp", "spring"};
 		
 		// 셔플
-		for (int i = 0; i < 1000; i++) {
+		for (int i = 0; i < 1000; i++) { //1000을 쓰는이유를 모름.
 			int r = ran.nextInt(words.length);
 			
 			String temp = words[0];
@@ -35,10 +35,10 @@ public class StringEx09_정답예시 {
 		}
 		
 		int idx = 0;
-		while (idx < words.length) {
+		while (idx < words.length) { // while 반복문 
 			
 			System.out.println("[" + (idx + 1) + "] 문제 : " + words[idx]);
-			
+						
 			System.out.print("입력 : ");
 			String myWord = scan.next();
 			
