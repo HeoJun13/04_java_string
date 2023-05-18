@@ -21,8 +21,6 @@ import java.util.Scanner;
  * } 
  */
 
-
-
 public class StringEx11_필기2 {
 
 	public static void main(String[] args) {
